@@ -1,0 +1,9 @@
+class DropCommentsTable < ActiveRecord::Migration
+  def up
+    drop_table(:comments) if table_exists? :comments
+  end
+  
+  def down
+    raise ActiveRecord::IrreversibleMigration
+  end
+end

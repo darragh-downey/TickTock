@@ -1,0 +1,31 @@
+<% provide(:title, "Home")%>
+<div class="center jumbotron">
+	<div id="HomeCarousel" class="carousel container slide">
+		<div class="carousel-inner">
+			<div class="active item one"></div>
+			<div class="item two"></div>
+			<div class="item three"></div>
+		</div>
+	
+	    <h1>Welcome to Transdev</h1>
+	
+	    <div class="row">
+		  <h2>
+			  This is the home page for the
+			  <a href="http://www.transdevsydney.com.au/">Transdev Sydney</a>
+			  Intranet!
+		  </h2>
+	  </div>
+	
+	  <div class="row">
+		  <!-- 16:9 aspect ratio -->
+		  <%= video_tag[src:"I am Transdev video.mp4"] %>
+	  </div>
+	
+	  <div class="row">
+		<%= link_to "Sign up", signup_path, class: "btn btn=lg btn-primary" %>
+	  </div>
+	</div>
+</div>
+
+

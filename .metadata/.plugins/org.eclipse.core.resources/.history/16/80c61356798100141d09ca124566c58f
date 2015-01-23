@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+mario:
+  name: Super Mario
+  email: s.mario@nintendo.com.au
+  password_digest: <%= User.digest('upArightAA') %>
+  
+archer:
+  name: Sterling Archer
+  email: duchess@notisis.gov
+  password_digest: <%= User.digest('MotherPlease') %>
+  
+lana:
+  name: Lana Kane
+  email: manhands@notisis.gov
+  password_digest: <%= User.digest('goddammitArcher!') %>
+  
+mallory:
+  name: Mallory Archer
+  email: doyouwantants@notisis.gov
+  password_digest: <%= User.digest('becausethatshowyougetants') %>
+  
+krieger:
+  name: Krieger
+  email: drkrieger@notisis.gov
+  password_digest: <%= User.digest('mutantpigly') %>
+
+<% 30.times do |n| %>
+user_<%= n %>:
+  name: <%= "Odin_Agent #{n}" %>
+  email: <%= "agent-#{n}@odin.gov" %>
+  password_digest: <%= User.digest('odin4lyfe') %>
+<% end %>

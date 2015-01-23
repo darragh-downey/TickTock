@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+darragh:
+  name: Darragh Downey
+  email: darraghd@transdevsydney.com.au
+  password_digest: <%= User.digest('1two3four5') %>
+  
+matt:
+  name: Matt Webb
+  email: mattw@transdevsydney.com.au
+  password_digest: <%= User.digest('1two3four5') %>

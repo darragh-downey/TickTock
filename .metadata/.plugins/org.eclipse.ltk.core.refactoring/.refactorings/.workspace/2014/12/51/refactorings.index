@@ -1,0 +1,5 @@
+1418781702627	Delete resource 'editor'
+1418945802351	Delete resource 'transdev-intranet/app/views/comments'
+1418945862949	Delete resource 'transdev-intranet/app/models/comment.rb'
+1418945944498	Delete resource 'transdev-intranet/test/models/comment_test.rb'
+1418947061228	Delete resource 'transdev-intranet/app/controllers/comments_controller.rb'

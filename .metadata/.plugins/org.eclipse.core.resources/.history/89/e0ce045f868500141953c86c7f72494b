@@ -1,0 +1,7 @@
+module Editor
+  
+  def self.textBold(str)
+    # TODO: Convert passed in string to from normal to bold and vice versa.
+    str
+  end
+end

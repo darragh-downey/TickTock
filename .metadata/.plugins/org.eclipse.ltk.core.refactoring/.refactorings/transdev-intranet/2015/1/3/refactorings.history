@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;transdev-intranet/app/views/microposts/_microposts.html.erb&apos; to &apos;_micropost.html.erb&apos;" description="Rename resource &apos;_microposts.html.erb&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="app/views/microposts/_microposts.html.erb" name="_micropost.html.erb" stamp="1421103920723" updateReferences="true"/>
+</session>
